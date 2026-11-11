@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+
+read -p "name? " arg
+echo $arg
+
+read -p "what servis you want to check?" serv
+
+status=$(systemctl is-active "$serv")
+
+if [[ "$status" == "active" ]]
+then
+    echo $arg servic $serv is active
+else 
+    echo servic $serv is not active 
+fi
+

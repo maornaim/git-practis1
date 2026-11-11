@@ -1,0 +1,2 @@
+folder="./rols"
+find "$folder"

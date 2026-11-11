@@ -1,0 +1,5 @@
+
+for env in devops prod developer
+do
+    echo "environment is $env"
+done

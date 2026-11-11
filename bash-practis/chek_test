@@ -1,0 +1,17 @@
+if [[ "$#" -ne 1 ]]
+then echo "need only one"
+     exit 1
+fi
+
+path="$1"
+if [[ -d "$path" || -f "$path" ]]
+then echo "is a f or d"
+else echo "isnt a d or d"
+fi
+
+count=1
+while [[ $count -le 3 ]]
+do 
+    echo $count
+    count=$((count+1))
+done

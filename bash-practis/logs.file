@@ -1,0 +1,14 @@
+disk usge for list
+0	list
+disk df for list
+Filesystem      Size  Used Avail Use% Mounted on
+C:\             238G  218G   20G  92% /mnt/c
+disk usge for list
+0	list
+disk df for list
+Filesystem      Size  Used Avail Use% Mounted on
+C:\             238G  218G   20G  92% /mnt/c
+File details:
+-rwxrwxrwx 1 maor maor 139 Nov  6 18:05 list
+File type:
+list: ASCII text

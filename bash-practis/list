@@ -1,0 +1,8 @@
+super=("appel" "lemon" "milk")
+echo "${super[2]}"
+echo "${super[@]}"
+
+num=(10 54 69 13)
+echo "${num[2]}"
+echo "${num[0]}"
+echo "${num[@]}"

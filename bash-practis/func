@@ -1,0 +1,16 @@
+hello() {
+    echo "hello"
+    read name
+    echo "hi $name"
+
+}
+
+hello
+
+greet() {
+    echo "Hello $1"
+}
+
+greet "David"
+greet "Maor"
+

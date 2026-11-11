@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+echo "Current directory:"
+pwd
+
+echo "Files:"
+ls
+
+echo "Bash scripts:"
+find . -name "*.sh"
+
+echo "Operating system:"
+cat /etc/os-release
+
+echo "Network:"
+ip addr
+
+echo "Terminal processes:"
+ps
+
+echo "Bash process IDs:"
+pgrep bash
+
+echo "Website response:"
+curl -I https://example.com
+
+if [[ -f "services.log" ]]
+then
+    echo "Last log lines:"
+    tail -n 5 services.log
+
+    echo "Stopped services:"
+    grep "STOPPED" services.log
+fi

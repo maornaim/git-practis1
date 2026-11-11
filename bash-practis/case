@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+if [[ "$#" -ne 2 ]]
+then
+    echo "need "servis" and "action""
+    exit 1
+fi
+
+service="$1"
+action="$2"
+
+case "$action" in
+    start)
+        sudo systemctl start "$service"
+        ;;
+    stop)
+        sudo systemctl stop "$service"
+        ;;
+    restart)
+        sudo systemctl restart "$service"
+        ;;
+    status)
+        systemctl status "$service" --no-pager
+        ;;
+    logs)
+        journalctl -u "$service" -n 10 --no-pager
+        ;;    
+    *)
+        echo "Use: start, stop, restart, status, or logs"
+        exit 1  
+        ;;
+esac

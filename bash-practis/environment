@@ -1,0 +1,12 @@
+name="maor"
+echo "$name"
+echo "$name is the"
+echo "${name} is the"
+
+
+for env in devops prod develop
+do 
+    echo "the environment is $env"
+done
+
+

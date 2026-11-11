@@ -1,0 +1,15 @@
+cpu is ok
+cpu is ok
+worning the cpu is over 80
+cpu is ok
+worning the cpu is over 80
+cpu is ok
+cpu is ok
+Server:  | CPU: 90% | WARNING
+cpu is ok
+Server:  | CPU: 95% | WARNING
+Server: gfgj | CPU: 30% | OK
+Server: gfgj | CPU: 65% | OK
+Server: gfgj | CPU: 90% | WARNING
+Server: gfgj | CPU: 45% | OK
+Server: gfgj | CPU: 95% | WARNING
